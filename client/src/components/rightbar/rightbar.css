@@ -1,0 +1,149 @@
+.rightbar {
+  flex: 3.5;
+  height: calc(100vh - 50px);
+  overflow-y: scroll;
+  position: sticky;
+  top: 0;
+  margin-left: 10px;
+}
+
+.rightbarWrapper {
+  padding: 20px 20px 0 0;
+}
+
+.birthdayContainer {
+  display: flex;
+  align-items: center;
+}
+
+.birthdayIcon {
+  margin-right: 10px;
+  color: crimson;
+}
+
+.birthdayText {
+  font-weight: 300;
+  font-size: 15px;
+}
+
+.rightbarAd {
+  width: 100%;
+  border-radius: 10px;
+  margin: 30px 0;
+}
+
+.rightbarFollowButton,
+.rightbarMessageButton,
+.rightbarSettingsButton,
+.rightbarSettingsConfrimButton,
+.rightbarSettingsSecurityButton {
+  margin-right: 5px;
+  margin-bottom: 10px;
+  border: none;
+  background-color: #1872f2;
+  color: white;
+  border-radius: 5px;
+  padding: 5px 10px;
+  align-items: center;
+  font-size: 16px;
+  font-weight: 500;
+  cursor: pointer;
+  -webkit-border-radius: 5px;
+  -moz-border-radius: 5px;
+  -ms-border-radius: 5px;
+  -o-border-radius: 5px;
+}
+
+.rightbarSettingsConfrimButton {
+  background-color: green;
+}
+
+.rightbarSettingsSecurityButton {
+  background-color: red;
+}
+
+input {
+  outline: 0;
+  border-width: 0 0 1px;
+  width: 50%;
+}
+
+input:focus {
+  outline: none;
+}
+
+.pictureOption {
+  display: flex;
+  align-items: center;
+  margin-right: 15px;
+  margin-top: 5px;
+  cursor: pointer;
+}
+
+.pictureIcon {
+  font-size: 18px;
+}
+
+.pictureOptionText {
+  font-size: 14px;
+  font-weight: 500;
+}
+
+.rightbarFollowButton:focus {
+  outline: none;
+}
+
+.rightbarTitle {
+  margin-bottom: 20px;
+  font-size: 18px;
+  font-weight: 500;
+}
+
+.rightbarFriendList {
+  padding: 0;
+  margin: 0;
+  list-style: none;
+}
+
+.rightbarInfo {
+  margin-bottom: 30px;
+}
+
+.rightbarInfoItem {
+  margin-bottom: 10px;
+}
+
+.rightbarInfoKey {
+  font-weight: 500;
+  margin-right: 15px;
+  color: #555;
+}
+
+.rightbarInfoValue {
+  font-weight: 300;
+}
+
+.rightbarFollowings {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.rightbarFollowing {
+  display: flex;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.rightbarFollowingProfilePicture {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border-radius: 5px;
+}
+
+.rightbarFollowingName {
+  max-width: 125px;
+  margin: auto;
+  margin-left: 5px;
+}

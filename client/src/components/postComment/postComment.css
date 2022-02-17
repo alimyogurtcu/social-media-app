@@ -1,0 +1,57 @@
+.comments {
+}
+
+.commentsHr {
+  margin: 20px;
+}
+
+.commentsComment {
+  margin-bottom: 10px;
+}
+
+.commentsProfilePicture {
+  width: 32px;
+  height: 32px;
+  border-radius: 50%;
+  object-fit: cover;
+}
+
+.commentsUserInfo {
+  margin-top: -30px;
+  margin-left: 35px;
+  font-size: 12px;
+  font-weight: 500;
+}
+
+.commentsDate {
+  font-weight: 300;
+  font-size: 10px;
+}
+
+.commentsText {
+  font-size: 12px;
+  font-weight: 300;
+  margin-left: 35px;
+  display: block;
+}
+
+.commentsInput {
+  border: none;
+  width: 80%;
+  margin: 20px;
+}
+
+.commentsInput:focus {
+  outline: none;
+}
+
+.commentSendButton {
+  border: none;
+  padding: 7px;
+  border-radius: 5px;
+  background-color: green;
+  font-weight: 500;
+  color: white;
+  cursor: pointer;
+  margin-bottom: 20px;
+}
